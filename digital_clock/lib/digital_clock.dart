@@ -63,7 +63,7 @@ class _DigitalClockState extends State<DigitalClock> {
   void dispose() {
     _timer?.cancel();
     widget.model.removeListener(_updateModel);
-    widget.model.dispose();
+    //widget.model.dispose();
     super.dispose();
   }
 

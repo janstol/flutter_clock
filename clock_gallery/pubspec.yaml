@@ -1,0 +1,30 @@
+name: clock_gallery
+description: Clocks gallery
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  analog_clock:
+    path: ../analog_clock
+
+  digital_clock:
+    path: ../digital_clock
+
+  numeric_clock:
+    path: ../numeric_clock
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: PressStart2P
+      fonts:
+        - asset: ../digital_clock/third_party/PressStart2P-Regular.ttf
