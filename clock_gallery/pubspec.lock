@@ -29,13 +29,6 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "2.4.0"
-  auto_size_text:
-    dependency: transitive
-    description:
-      name: auto_size_text
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "2.1.0"
   boolean_selector:
     dependency: transitive
     description:
@@ -130,13 +123,6 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.1.8"
-  numeric_clock:
-    dependency: "direct main"
-    description:
-      path: "..\\numeric_clock"
-      relative: true
-    source: path
-    version: "1.0.0+1"
   path:
     dependency: transitive
     description:

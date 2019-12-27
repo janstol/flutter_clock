@@ -15,9 +15,6 @@ dependencies:
   digital_clock:
     path: ../digital_clock
 
-  numeric_clock:
-    path: ../numeric_clock
-
 dev_dependencies:
   flutter_test:
     sdk: flutter
