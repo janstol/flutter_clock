@@ -7,6 +7,7 @@ import 'package:digital_clock/digital_clock.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_clock_helper/customizer.dart';
 import 'package:flutter_clock_helper/model.dart';
+import 'package:hex_clock/hex_clock.dart';
 
 void main() => runApp(ClockCustomizer((model) => App(clockModel: model)));
 
@@ -38,6 +39,11 @@ class _AppState extends State<App> {
         name: 'Digital clock',
         author: 'The Chromium Authors',
         widget: Builder(builder: (context) => DigitalClock(widget.clockModel)),
+      ),
+      Clock(
+        name: 'Hex clock',
+        author: 'Jan Štol',
+        widget: HexClock(widget.clockModel),
       ),
     ];
 

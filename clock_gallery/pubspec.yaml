@@ -15,9 +15,14 @@ dependencies:
   digital_clock:
     path: ../digital_clock
 
+  hex_clock:
+    path: ../hex_clock
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
+
+  effective_dart: ^1.2.1
 
 flutter:
   uses-material-design: true
