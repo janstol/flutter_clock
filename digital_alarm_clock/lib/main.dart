@@ -8,7 +8,7 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_clock_helper/customizer.dart';
 
-import 'hex_clock.dart';
+import 'alarm_clock.dart';
 
 void main() {
   // A temporary measure until Platform supports web and TargetPlatform supports
@@ -30,6 +30,6 @@ void main() {
   // Your job is to edit [AnalogClock], or replace it with your own clock
   // widget. (Look in analog_clock.dart for more details!)
   runApp(
-    ClockCustomizer((model) => HexClock(model)),
+    ClockCustomizer((model) => AlarmClock(model)),
   );
 }

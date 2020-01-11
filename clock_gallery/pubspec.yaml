@@ -12,6 +12,9 @@ dependencies:
   analog_clock:
     path: ../analog_clock
 
+  digital_alarm_clock:
+    path: ../digital_alarm_clock
+
   digital_clock:
     path: ../digital_clock
 

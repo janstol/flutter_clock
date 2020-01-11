@@ -3,6 +3,7 @@
 // found in the LICENSE file.
 
 import 'package:analog_clock/analog_clock.dart';
+import 'package:digital_alarm_clock/alarm_clock.dart';
 import 'package:digital_clock/digital_clock.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_clock_helper/customizer.dart';
@@ -34,6 +35,11 @@ class _AppState extends State<App> {
         name: 'Analog clock',
         author: 'The Chromium Authors',
         widget: AnalogClock(widget.clockModel),
+      ),
+      Clock(
+        name: 'Digital alarm clock',
+        author: 'Jan Štol',
+        widget: Builder(builder: (context) => AlarmClock(widget.clockModel)),
       ),
       Clock(
         name: 'Digital clock',

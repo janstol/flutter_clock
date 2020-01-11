@@ -1,6 +1,5 @@
-name: hex_clock
-description: HEX Clock.
-
+name: digital_alarm_clock
+description: Classic digital alarm clock.
 version: 1.0.0+1
 
 environment:
@@ -10,9 +9,9 @@ dependencies:
   flutter:
     sdk: flutter
 
-  auto_size_text: ^2.1.0
   flutter_clock_helper:
     path: ../flutter_clock_helper
+  segment_display: ^0.4.1
 
 dev_dependencies:
   flutter_test:
